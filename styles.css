@@ -465,7 +465,7 @@ footer{background:var(--brown);padding:52px 52px 28px;}
   width:60px;height:60px;background:#25D366;border-radius:50%;
   display:flex;align-items:center;justify-content:center;
   box-shadow:0 8px 30px rgba(37,211,102,0.55);text-decoration:none;
-  font-size:28px;animation:wapulse 2.5s infinite;transition:transform 0.2s;
+  overflow:hidden;animation:wapulse 2.5s infinite;transition:transform 0.2s;
 }
 .wa-float:hover{transform:scale(1.1);}
 @keyframes wapulse{
