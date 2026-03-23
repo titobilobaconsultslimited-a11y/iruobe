@@ -131,7 +131,7 @@ nav{
 .sec-title .red{color:var(--red);}
 .sec-title .gold{color:var(--gold);}
 .sec-title .green{color:var(--green);}
-.sec-sub{font-size:15px;color:#666;line-height:1.8;max-width:560px;margin-bottom:52px;}
+.sec-sub{font-size:15px;color:#666;line-height:1.8;max-width:560px;margin:0 auto 52px;text-align:center;}
 
 /* ── ABOUT TEASER ── */
 .about-section{background:var(--off);}
