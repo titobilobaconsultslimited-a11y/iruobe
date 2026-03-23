@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Products — Shop IRÚOBÈ™ Locust Bean Seasoning</title>
+<meta name="description" content="Shop IRÚOBÈ™ seasoning. Classic Iru (Red) and Sumabala Olive (Green) in 10g, 100g, and 1kg sizes. Order on WhatsApp.">
+<link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Nunito:ital,wght@0,400;0,600;0,700;0,800;0,900;1,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!-- Lightbox -->
+<div class="lightbox" id="lightbox" onclick="closeLb()">
+  <span class="lb-close">✕</span>
+  <img class="lb-img" id="lb-img" src="" alt="">
+</div>
+
+<!-- WA Float -->
+<a href="https://wa.me/2347068861018?text=Hello%20IRÚOBÈ!%20I%20would%20like%20to%20place%20an%20order." class="wa-float" target="_blank" title="Order on WhatsApp">💬</a>
+
+<!-- Mobile Menu -->
+<div class="mobile-menu" id="mobileMenu">
+  <span class="close" onclick="toggleMenu()">✕</span>
+  <a href="about.html" onclick="toggleMenu()">Our Story</a>
+  <a href="benefits.html" onclick="toggleMenu()">Benefits</a>
+  <a href="products.html" onclick="toggleMenu()">Products</a>
+  <a href="how-to-use.html" onclick="toggleMenu()">How to Use</a>
+  <a href="partners.html" onclick="toggleMenu()">Distributors</a>
+  <a href="contact.html" onclick="toggleMenu()">Contact</a>
+</div>
+
+<!-- ANNOUNCE -->
+<div class="announce">
+  <span class="announce-scroll">♛ IRÚOBÈ™ — The True Taste of Africa &nbsp;·&nbsp; 100% Natural · No MSG · No Preservatives &nbsp;·&nbsp; Available in 10g, 100g & 1kg &nbsp;·&nbsp; Nationwide Delivery · Export Ready &nbsp;·&nbsp; WhatsApp: 07068861018 &nbsp;·&nbsp; ♛ IRÚOBÈ™ — Healthy. Authentic. Regal.</span>
+</div>
+
+<!-- NAV -->
+<nav>
+  <div class="nav-logo"><img src="media/new image-17.jpeg" alt="IRÚOBÈ"></div>
+  <ul class="nav-links">
+    <li><a href="about.html">Our Story</a></li>
+    <li><a href="benefits.html">Benefits</a></li>
+    <li><a href="products.html">Products</a></li>
+    <li><a href="how-to-use.html">How to Use</a></li>
+    <li><a href="partners.html">Distributors</a></li>
+    <li><a href="contact.html">Contact</a></li>
+  </ul>
+  <div class="nav-right">
+    <a href="https://wa.me/2347068861018?text=Hello%20IRÚOBÈ!%20I%20want%20to%20order." class="nav-wa" target="_blank">
+      💬 <span>Order Now</span>
+    </a>
+    <div class="hamburger" onclick="toggleMenu()">
+      <span></span><span></span><span></span>
+    </div>
+  </div>
+</nav>
+
+<!-- PRODUCTS -->
+<div id="products" class="products-section">
+  <div class="products-inner">
+    <span class="sec-badge">🛍️ Shop</span>
+    <h2 class="sec-title">Two Variants. <span class="red">Endless</span> Flavour.</h2>
+    <p class="sec-sub">Classic Iru (Red) and Sumabala Olive (Green) — each available in three convenient sizes. Every order goes directly through WhatsApp for fast, reliable delivery.</p>
+    <div class="variant-tabs">
+      <div class="vtab vtab-all active" onclick="filterProds('all',this)">All Products</div>
+      <div class="vtab vtab-red" onclick="filterProds('red',this)">🔴 Classic Iru</div>
+      <div class="vtab vtab-green" onclick="filterProds('green',this)">🟢 Sumabala Olive</div>
+    </div>
+    <div class="products-grid reveal">
+
+      <div class="prod-card" data-v="red">
+        <div class="prod-img-wrap">
+          <img src="media/image 22.png" alt="Classic Iru Obe — All Sizes">
+          <span class="prod-vdot vd-red">Classic Iru</span>
+          <span class="prod-new">BESTSELLER</span>
+        </div>
+        <div class="prod-body">
+          <div class="prod-name">Classic Iru Obe</div>
+          <div class="prod-desc">The original red Iru seasoning — bold, earthy, full of umami. Made from the finest Parkia biglobosa seeds. Perfect for all Nigerian soups.</div>
+          <div class="prod-sizes">
+            <span class="sz sz-r">10g Sachet</span>
+            <span class="sz sz-r">100g Pouch</span>
+            <span class="sz sz-r">1kg Bulk</span>
+          </div>
+          <div class="prod-footer">
+            <a href="https://wa.me/2347068861018?text=Hello%20IRÚOBÈ!%20I%20want%20to%20order%20Classic%20Iru%20Obe%20(Red).%20Please%20send%20me%20pricing%20and%20availability." class="btn-order" target="_blank">💬 Order Now</a>
+            <div class="prod-like" onclick="toggleLike(this)" title="Save">🤍</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="prod-card" data-v="red">
+        <div class="prod-img-wrap">
+          <img src="media/image-2.jpg" alt="Iru Obe 1kg">
+          <span class="prod-vdot vd-red">Classic Iru</span>
+          <span class="prod-new">TRADE SIZE</span>
+        </div>
+        <div class="prod-body">
+          <div class="prod-name">Iru Obe — 1kg Pouch</div>
+          <div class="prod-desc">Our largest size for families, caterers, and restaurants. Resealable zip-lock pouch. Long shelf life. Get the best value per gram.</div>
+          <div class="prod-sizes">
+            <span class="sz sz-r">1 kg</span>
+            <span class="sz sz-r">Resealable</span>
+            <span class="sz sz-r">Best Value</span>
+          </div>
+          <div class="prod-footer">
+            <a href="https://wa.me/2347068861018?text=Hello%20IRÚOBÈ!%20I%20want%20to%20order%20the%201kg%20Iru%20Obe%20pouch.%20Please%20send%20me%20pricing." class="btn-order" target="_blank">💬 Order Now</a>
+            <div class="prod-like" onclick="toggleLike(this)" title="Save">🤍</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="prod-card" data-v="red">
+        <div class="prod-img-wrap">
+          <img src="media/image-4.jpg" alt="Iru Obe — Premium Hero">
+          <span class="prod-vdot vd-red">Classic Iru</span>
+        </div>
+        <div class="prod-body">
+          <div class="prod-name">Iru Obe — Premium</div>
+          <div class="prod-desc">Hygienically processed and finely packaged. No odour, no mess — just pure, authentic Iru flavour sealed in for maximum freshness.</div>
+          <div class="prod-sizes">
+            <span class="sz sz-r">10g</span>
+            <span class="sz sz-r">100g</span>
+            <span class="sz sz-r">No MSG</span>
+          </div>
+          <div class="prod-footer">
+            <a href="https://wa.me/2347068861018?text=Hello%20IRÚOBÈ!%20I%20want%20to%20order%20Iru%20Obe%20seasoning.%20Please%20send%20me%20your%20full%20price%20list." class="btn-order" target="_blank">💬 Order Now</a>
+            <div class="prod-like" onclick="toggleLike(this)" title="Save">🤍</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="prod-card" data-v="green">
+        <div class="prod-img-wrap">
+          <img src="media/image-9.jpg" alt="Sumabala Olive — 3 sizes">
+          <span class="prod-vdot vd-green">Sumabala Olive</span>
+          <span class="prod-new">NEW</span>
+        </div>
+        <div class="prod-body">
+          <div class="prod-name">Sumabala Olive</div>
+          <div class="prod-desc">The premium olive-green variant. Milder, subtler, and equally authentic — perfect for lighter soups and those new to Iru seasoning.</div>
+          <div class="prod-sizes">
+            <span class="sz sz-g">10g Sachet</span>
+            <span class="sz sz-g">100g Pouch</span>
+            <span class="sz sz-g">Mild Variant</span>
+          </div>
+          <div class="prod-footer">
+            <a href="https://wa.me/2347068861018?text=Hello%20IRÚOBÈ!%20I%20want%20to%20order%20Sumabala%20Olive%20(Green).%20Please%20send%20me%20pricing." class="btn-order grn" target="_blank">💬 Order Now</a>
+            <div class="prod-like" onclick="toggleLike(this)" title="Save">🤍</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="prod-card" data-v="green">
+        <div class="prod-img-wrap">
+          <img src="media/image-7.jpg" alt="Sumabala Olive Single">
+          <span class="prod-vdot vd-green">Sumabala Olive</span>
+        </div>
+        <div class="prod-body">
+          <div class="prod-name">Sumabala — 100g</div>
+          <div class="prod-desc">Your everyday kitchen companion. Clean, rich, natural Sumabala flavour in a convenient resealable pouch — ready for your next pot.</div>
+          <div class="prod-sizes">
+            <span class="sz sz-g">100g</span>
+            <span class="sz sz-g">Resealable</span>
+          </div>
+          <div class="prod-footer">
+            <a href="https://wa.me/2347068861018?text=Hello%20IRÚOBÈ!%20I%20want%20to%20order%20the%20100g%20Sumabala%20Olive.%20Please%20send%20me%20pricing." class="btn-order grn" target="_blank">💬 Order Now</a>
+            <div class="prod-like" onclick="toggleLike(this)" title="Save">🤍</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="prod-card" data-v="green">
+        <div class="prod-img-wrap">
+          <img src="media/image-16.jpg" alt="Sumabala Bulk">
+          <span class="prod-vdot vd-green">Sumabala Olive</span>
+          <span class="prod-new">WHOLESALE</span>
+        </div>
+        <div class="prod-body">
+          <div class="prod-name">Sumabala — Bulk Pack</div>
+          <div class="prod-desc">Wholesale and retail sachets for distributors, market sellers, and food businesses. Contact us for bulk pricing and minimum order quantities.</div>
+          <div class="prod-sizes">
+            <span class="sz sz-g">Bulk Sachets</span>
+            <span class="sz sz-g">Wholesale</span>
+          </div>
+          <div class="prod-footer">
+            <a href="https://wa.me/2347068861018?text=Hello%20IRÚOBÈ!%20I%20am%20interested%20in%20wholesale%2Fbulk%20Sumabala%20Olive%20sachets.%20Please%20send%20me%20bulk%20pricing." class="btn-order grn" target="_blank">💬 Enquire Now</a>
+            <div class="prod-like" onclick="toggleLike(this)" title="Save">🤍</div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<!-- GALLERY -->
+<div class="gallery-section">
+  <div class="gallery-inner">
+    <span class="sec-badge" style="background:rgba(255,255,255,0.15);color:white;">📸 Gallery</span>
+    <h2 class="sec-title" style="color:white;margin-bottom:36px;">See the <span style="color:var(--gold-lt);">Product</span></h2>
+    <div class="gallery-grid">
+      <div class="gi tall" onclick="openLb('media/image 23.jpeg')""><img src="media/image 23.jpeg" alt="IRÚOBÈ Premium"><div class="gi-overlay"><span class="gi-label">Premium Shoot</span></div></div>
+      <div class="gi" onclick="openLb('media/image-2.jpg')""><img src="media/image-11.jpg" alt="Red 3 Sizes"><div class="gi-overlay"><span class="gi-label">Classic Iru — 3 Sizes</span></div></div>
+      <div class="gi" onclick="openLb('media/image-3.jpg')""><img src="media/image-7.jpg" alt="Green Single"><div class="gi-overlay"><span class="gi-label">Sumabala Olive</span></div></div>
+      <div class="gi" onclick="openLb('media/image-4.jpg')""><img src="media/image-4.jpg" alt="1kg Pouch"><div class="gi-overlay"><span class="gi-label">1kg Trade Pouch</span></div></div>
+      <div class="gi wide" onclick="openLb('media/image-5.jpg')""><img src="media/image-14.jpg" alt="Both Variants"><div class="gi-overlay"><span class="gi-label">Both Variants</span></div></div>
+      <div class="gi" onclick="openLb('media/image-6.jpg')""><img src="media/image-7.jpg" alt="Green 3 sizes"><div class="gi-overlay"><span class="gi-label">Sumabala — 3 Sizes</span></div></div>
+    </div>
+  </div>
+</div>
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-top">
+    <div class="footer-brand">
+      <img src="media/image-1.jpg" alt="IRÚOBÈ" class="footer-logo">
+      <p>Nigeria's premium locust bean seasoning. 100% natural, no MSG, no preservatives. The True Taste of Africa — Healthy. Authentic. Regal.</p>
+      <p style="margin-top:14px;font-size:12px;color:rgba(255,255,255,0.25);">Plot 1, Ayemi Garage, Iworoko Express way, Ado-Ekiti, Ekiti State</p>
+    </div>
+    <div class="footer-col">
+      <h4>Products</h4>
+      <a href="products.html">Classic Iru Obe (Red)</a>
+      <a href="products.html">Sumabala Olive (Green)</a>
+      <a href="products.html">10g Sachets</a>
+      <a href="products.html">100g Pouch</a>
+      <a href="products.html">1kg Bulk Pouch</a>
+      <a href="partners.html">Wholesale Orders</a>
+    </div>
+    <div class="footer-col">
+      <h4>Contact</h4>
+      <a href="https://wa.me/2347068861018">💬 WhatsApp: 07068861018</a>
+      <a href="mailto:sales@iruobe.ng">✉️ sales@iruobe.ng</a>
+      <a href="mailto:hopebankole@gmail.com">📩 hopebankole@gmail.com</a>
+      <a href="about.html">Our Story</a>
+      <a href="how-to-use.html">How to Use</a>
+      <a href="partners.html">Become a Distributor</a>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <p>© 2026 IRÚOBÈ™. All rights reserved. Locust Beans Seasoning — Nigeria.</p>
+    <div class="footer-royal">♛ Taste Royalty. Taste IRÚOBÈ™</div>
+  </div>
+</footer>
+
+<script>
+// ── MOBILE MENU ──
+function toggleMenu(){
+  document.getElementById('mobileMenu').classList.toggle('open');
+}
+
+// ── PRODUCT FILTER ──
+function filterProds(v, btn){
+  document.querySelectorAll('.vtab').forEach(t=>t.classList.remove('active'));
+  btn.classList.add('active');
+  document.querySelectorAll('.prod-card').forEach(c=>{
+    c.style.display = (v==='all'||c.dataset.v===v) ? '' : 'none';
+  });
+}
+
+// ── WISHLIST ──
+function toggleLike(el){
+  el.classList.toggle('liked');
+  el.textContent = el.classList.contains('liked') ? '❤️' : '🤍';
+}
+
+// ── GALLERY LIGHTBOX ──
+function openLb(src){
+  document.getElementById('lb-img').src = src;
+  document.getElementById('lightbox').classList.add('open');
+}
+function closeLb(){
+  document.getElementById('lightbox').classList.remove('open');
+}
+
+// ── SCROLL REVEAL ──
+const obs = new IntersectionObserver((entries)=>{
+  entries.forEach(e=>{ if(e.isIntersecting) e.target.classList.add('visible'); });
+}, {threshold:0.12});
+document.querySelectorAll('.reveal').forEach(el=>obs.observe(el));
+</script>
+</body>
+</html>

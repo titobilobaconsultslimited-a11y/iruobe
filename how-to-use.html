@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>How to Use — IRÚOBÈ™ Locust Bean Seasoning Recipes</title>
+<meta name="description" content="Learn how to use IRÚOBÈ™ in your favorite Nigerian dishes. Step-by-step guides for Egusi, Ewedu, Okra, Ogbono, and more.">
+<link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Nunito:ital,wght@0,400;0,600;0,700;0,800;0,900;1,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!-- WA Float -->
+<a href="https://wa.me/2347068861018?text=Hello%20IRÚOBÈ!%20I%20would%20like%20to%20place%20an%20order." class="wa-float" target="_blank" title="Order on WhatsApp">💬</a>
+
+<!-- Mobile Menu -->
+<div class="mobile-menu" id="mobileMenu">
+  <span class="close" onclick="toggleMenu()">✕</span>
+  <a href="about.html" onclick="toggleMenu()">Our Story</a>
+  <a href="benefits.html" onclick="toggleMenu()">Benefits</a>
+  <a href="products.html" onclick="toggleMenu()">Products</a>
+  <a href="how-to-use.html" onclick="toggleMenu()">How to Use</a>
+  <a href="partners.html" onclick="toggleMenu()">Distributors</a>
+  <a href="contact.html" onclick="toggleMenu()">Contact</a>
+</div>
+
+<!-- ANNOUNCE -->
+<div class="announce">
+  <span class="announce-scroll">♛ IRÚOBÈ™ — The True Taste of Africa &nbsp;·&nbsp; 100% Natural · No MSG · No Preservatives &nbsp;·&nbsp; Available in 10g, 100g & 1kg &nbsp;·&nbsp; Nationwide Delivery · Export Ready &nbsp;·&nbsp; WhatsApp: 07068861018 &nbsp;·&nbsp; ♛ IRÚOBÈ™ — Healthy. Authentic. Regal.</span>
+</div>
+
+<!-- NAV -->
+<nav>
+  <div class="nav-logo"><img src="media/new image-17.jpeg" alt="IRÚOBÈ"></div>
+  <ul class="nav-links">
+    <li><a href="about.html">Our Story</a></li>
+    <li><a href="benefits.html">Benefits</a></li>
+    <li><a href="products.html">Products</a></li>
+    <li><a href="how-to-use.html">How to Use</a></li>
+    <li><a href="partners.html">Distributors</a></li>
+    <li><a href="contact.html">Contact</a></li>
+  </ul>
+  <div class="nav-right">
+    <a href="https://wa.me/2347068861018?text=Hello%20IRÚOBÈ!%20I%20want%20to%20order." class="nav-wa" target="_blank">
+      💬 <span>Order Now</span>
+    </a>
+    <div class="hamburger" onclick="toggleMenu()">
+      <span></span><span></span><span></span>
+    </div>
+  </div>
+</nav>
+
+<!-- HOW TO USE — INTERACTIVE -->
+<section id="uses">
+  <div class="pad htu-section">
+    <div class="max">
+      <span class="sec-badge">🍲 How to Use</span>
+      <h2 class="sec-title">Perfect For <span class="red">Every</span> Nigerian Dish</h2>
+      <p class="sec-sub">Click any dish below to see exactly how to use IRÚOBÈ™ for the best results. One sachet. Endless flavour.</p>
+      <div class="dishes-grid reveal" id="dishGrid">
+        <div class="dish-card" onclick="showDish(this,'egusi','🍲','Egusi Soup','Add 1–2 sachets of IRÚOBÈ™ as your egusi fries in the oil. Let it cook into the base before adding your pepper mix. The Iru deepens the flavour and removes that raw egusi edge.','Start with your oil → Fry onions → Add IRÚOBÈ™ → Add ground egusi → Let fry 8–10 mins → Add pepper and stock')">
+          <div class="dish-thumb"><img src="media/Egusi.JPEG" alt="Egusi Soup"></div>
+          <div class="dish-body"><div class="dish-name">Egusi Soup</div><div class="dish-tip">Add while frying the egusi</div></div>
+        </div>
+        <div class="dish-card" onclick="showDish(this,'ewedu','🥬','Ewedu Soup','IRÚOBÈ™ is the secret behind the deep flavour of authentic Ewedu. Stir in half a sachet just before the jute leaves go in. It binds beautifully with the locust beans base and lifts the entire soup.','Boil water → Add washed ewedu → Blend/pound → Add IRÚOBÈ™ → Simmer 3 mins → Serve hot')">
+          <div class="dish-thumb"><img src="media/Ewedu.JPEG" alt="Ewedu Soup"></div>
+          <div class="dish-body"><div class="dish-name">Ewedu Soup</div><div class="dish-tip">Stir in before blending</div></div>
+        </div>
+        <div class="dish-card" onclick="showDish(this,'okra','🫙','Okra Soup','Okra and IRÚOBÈ™ are made for each other. Add during the pepper frying stage for maximum aroma. It amplifies the natural sliminess of okra and creates that perfect pot of draw soup.','Fry onions & peppers → Add IRÚOBÈ™ → Fry 3 mins → Add palm oil → Add protein → Add okra last')">
+          <div class="dish-thumb"><img src="media/okoro.jpeg" alt="Okra Soup"></div>
+          <div class="dish-body"><div class="dish-name">Okra Soup</div><div class="dish-tip">Add during pepper frying</div></div>
+        </div>
+        <div class="dish-card" onclick="showDish(this,'ogbono','🍛','Ogbono Soup','Iru and Ogbono have been paired in Nigerian kitchens for centuries. Add IRÚOBÈ™ when frying the ground ogbono in oil — it enhances the draw and gives the soup incredible depth.','Heat palm oil → Add ground ogbono → Fry → Add IRÚOBÈ™ → Add pepper → Add stock and protein → Simmer')">
+          <div class="dish-thumb"><img src="media/ogbono.jpeg" alt="Ogbono Soup"></div>
+          <div class="dish-body"><div class="dish-name">Ogbono Soup</div><div class="dish-tip">Fry with the ogbono</div></div>
+        </div>
+        <div class="dish-card" onclick="showDish(this,'eforiro','🥘','Efo Riro','Sprinkle IRÚOBÈ™ into your pepper stew base as it fries — before adding the greens. It gives Efo Riro that market-stall depth that makes everyone ask for the recipe.','Fry blended peppers → Add IRÚOBÈ™ → Fry down well → Add protein → Add shredded greens → Season')">
+          <div class="dish-thumb"><img src="media/efo riro.jpeg" alt="Efo Riro"></div>
+          <div class="dish-body"><div class="dish-name">Efo Riro</div><div class="dish-tip">Add to the pepper base</div></div>
+        </div>
+        <div class="dish-card" onclick="showDish(this,'banga','🫕','Banga Soup','Palm nut soup was built for IRÚOBÈ™. Add a generous tablespoon to the cooked palm nut extract while it reduces. The Iru and palm oil create an incomparable aromatic base.','Extract palm nut liquid → Boil → Add spices → Add IRÚOBÈ™ → Add dried fish & protein → Simmer 20 mins')">
+          <div class="dish-thumb"><img src="media/banga.jpeg" alt="Banga Soup"></div>
+          <div class="dish-body"><div class="dish-name">Banga Soup</div><div class="dish-tip">Add during reduction</div></div>
+        </div>
+        <div class="dish-card" onclick="showDish(this,'afang','🌿','Afang Soup','Traditional Afang calls for Iru as a non-negotiable ingredient. IRÚOBÈ™ delivers that without the preparation work. Add early in the cooking process for full integration.','Fry onions → Add IRÚOBÈ™ + crayfish → Add palm oil → Add water leaves → Add Afang leaves → Season')">
+          <div class="dish-thumb"><img src="media/afang.jpeg" alt="Afang Soup"></div>
+          <div class="dish-body"><div class="dish-name">Afang Soup</div><div class="dish-tip">Add with the crayfish</div></div>
+        </div>
+        <div class="dish-card" onclick="showDish(this,'ofada','🍚','Ofada Stew','Ofada stew (ayamase) gets its iconic flavour from Iru. Add IRÚOBÈ™ when frying your green peppers and the difference is immediate — bold, smoky, and unmistakably Yoruba.','Blend green peppers → Fry in bleached palm oil → Add IRÚOBÈ™ → Add assorted meat → Fry well → Season')">
+          <div class="dish-thumb"><img src="media/ofada.jpg.jpeg" alt="Ofada Stew"></div>
+          <div class="dish-body"><div class="dish-name">Ofada Stew</div><div class="dish-tip">Essential for ayamase</div></div>
+        </div>
+      </div>
+      <div class="dish-detail" id="dishDetail">
+        <div class="dd-emoji" id="ddEmoji"><img src="media/ewedu.png" alt="Dish"></div>
+        <div>
+          <div class="dd-title" id="ddTitle">Egusi Soup</div>
+          <div class="dd-text" id="ddText">Click any dish above to see the usage tip.</div>
+          <div id="ddSteps"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CTA -->
+<section style="padding: 60px 20px; text-align: center; background: linear-gradient(135deg, #2d2d2d 0%, #1a1a1a 100%);">
+  <div class="max" style="max-width: 900px; margin: 0 auto;">
+    <h2 class="sec-title" style="color: white; margin-bottom: 20px;">Ready to <span style="color: var(--gold-lt);">Cook?</span></h2>
+    <p style="color: rgba(255,255,255,0.9); margin-bottom: 30px;">Order your IRÚOBÈ™ today and bring authentic taste to your kitchen</p>
+    <div style="display: flex; gap: 15px; justify-content: center; flex-wrap: wrap;">
+      <a href="products.html" class="btn-order" style="text-decoration: none; display: inline-block; padding: 14px 28px; background: #d4a574; border-radius: 8px; color: white; font-weight: 600;">
+        🛍️ Shop Now
+      </a>
+      <a href="https://wa.me/2347068861018?text=Hello%20IRÚOBÈ!%20I%20want%20to%20order." class="btn-order" style="text-decoration: none; display: inline-block; padding: 14px 28px; background: #d4a574; border-radius: 8px; color: white; font-weight: 600;">
+        💬 Order on WhatsApp
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-top">
+    <div class="footer-brand">
+      <img src="media/image-1.jpg" alt="IRÚOBÈ" class="footer-logo">
+      <p>Nigeria's premium locust bean seasoning. 100% natural, no MSG, no preservatives. The True Taste of Africa — Healthy. Authentic. Regal.</p>
+      <p style="margin-top:14px;font-size:12px;color:rgba(255,255,255,0.25);">Plot 1, Ayemi Garage, Iworoko Express way, Ado-Ekiti, Ekiti State</p>
+    </div>
+    <div class="footer-col">
+      <h4>Products</h4>
+      <a href="products.html">Classic Iru Obe (Red)</a>
+      <a href="products.html">Sumabala Olive (Green)</a>
+      <a href="products.html">10g Sachets</a>
+      <a href="products.html">100g Pouch</a>
+      <a href="products.html">1kg Bulk Pouch</a>
+      <a href="partners.html">Wholesale Orders</a>
+    </div>
+    <div class="footer-col">
+      <h4>Contact</h4>
+      <a href="https://wa.me/2347068861018">💬 WhatsApp: 07068861018</a>
+      <a href="mailto:sales@iruobe.ng">✉️ sales@iruobe.ng</a>
+      <a href="mailto:hopebankole@gmail.com">📩 hopebankole@gmail.com</a>
+      <a href="about.html">Our Story</a>
+      <a href="how-to-use.html">How to Use</a>
+      <a href="partners.html">Become a Distributor</a>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <p>© 2026 IRÚOBÈ™. All rights reserved. Locust Beans Seasoning — Nigeria.</p>
+    <div class="footer-royal">♛ Taste Royalty. Taste IRÚOBÈ™</div>
+  </div>
+</footer>
+
+<script>
+// ── MOBILE MENU ──
+function toggleMenu(){
+  document.getElementById('mobileMenu').classList.toggle('open');
+}
+
+// ── DISH DETAIL ──
+function showDish(card, id, emoji, title, text, steps){
+  document.querySelectorAll('.dish-card').forEach(c=>c.classList.remove('active'));
+  card.classList.add('active');
+  
+  const imageMap = {
+    'egusi': 'media/egusi.jpeg',
+    'ewedu': 'media/Ewedu.JPEG',
+    'okra': 'media/okoro.jpeg',
+    'ogbono': 'media/ogbono.jpeg',
+    'eforiro': 'media/efo riro.jpeg',
+    'banga': 'media/banga.jpeg',
+    'afang': 'media/afang.jpeg',
+    'ofada': 'media/ofada.jpg.jpeg'
+  };
+  
+  const ddEmojiEl = document.getElementById('ddEmoji');
+  ddEmojiEl.innerHTML = `<img src="${imageMap[id]}" alt="${title}">`;
+  
+  document.getElementById('ddTitle').textContent = title;
+  document.getElementById('ddText').textContent = text;
+  const stepsEl = document.getElementById('ddSteps');
+  stepsEl.innerHTML = steps.split('→').map(s=>`<span class="dd-step">→ ${s.trim()}</span>`).join('');
+  const det = document.getElementById('dishDetail');
+  det.classList.add('show');
+  det.scrollIntoView({behavior:'smooth',block:'nearest'});
+}
+
+// ── SCROLL REVEAL ──
+const obs = new IntersectionObserver((entries)=>{
+  entries.forEach(e=>{ if(e.isIntersecting) e.target.classList.add('visible'); });
+}, {threshold:0.12});
+document.querySelectorAll('.reveal').forEach(el=>obs.observe(el));
+</script>
+</body>
+</html>
