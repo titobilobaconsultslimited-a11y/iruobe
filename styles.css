@@ -508,3 +508,18 @@ footer{background:var(--brown);padding:52px 52px 28px;}
   footer{padding:40px 20px 24px;}
   .footer-top{grid-template-columns:1fr;gap:32px;}
 }
+
+@media(max-width:540px){
+  .hero-banner img{height:200px;}
+  .trust-bar{flex-direction:column;align-items:flex-start;gap:12px;}
+  .benefits-grid{grid-template-columns:1fr;}
+  .products-grid{grid-template-columns:1fr;}
+  .prod-img-wrap{height:200px;}
+  .dishes-grid{grid-template-columns:1fr;}
+  .names-map{grid-template-columns:1fr;}
+  .gallery-grid{grid-template-columns:1fr;}
+  .gi.wide{grid-column:span 1;}
+  .dish-detail{grid-template-columns:1fr;text-align:center;}
+  .dd-emoji{width:90px;height:90px;margin:0 auto;}
+  .cform{padding:24px 16px;}
+}
