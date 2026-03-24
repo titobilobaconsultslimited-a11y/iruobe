@@ -86,22 +86,175 @@
   <div class="trust-item"><span class="ti">♛</span><div><strong>Export Ready</strong> — Diaspora Friendly</div></div>
 </div>
 
-<!-- QUICK SHOP CTA -->
-<section style="padding: 60px 20px; text-align: center; background: linear-gradient(135deg, #f5f1e8 0%, #fff9f0 100%);">
-  <div class="max" style="max-width: 900px; margin: 0 auto;">
-    <span class="sec-badge">🛍️ Shop Now</span>
-    <h2 class="sec-title">Ready to <span class="red">Order?</span></h2>
-    <p class="sec-sub">Explore our full range of Classic Iru and Sumabala Olive variants in 10g, 100g, and 1kg sizes.</p>
-    <div style="display: flex; gap: 20px; justify-content: center; flex-wrap: wrap; margin-top: 30px;">
-      <a href="products.html" class="btn-order" style="text-decoration: none; display: inline-block; padding: 14px 28px; background: #d4a574; border-radius: 8px; color: white; font-weight: 600;">
-        🛍️ View All Products
-      </a>
-      <a href="how-to-use.html" class="btn-order" style="text-decoration: none; display: inline-block; padding: 14px 28px; background: #2d2d2d; border-radius: 8px; color: white; font-weight: 600;">
-        🍲 How to Use
-      </a>
+<!-- OUR STORY (HOMEPAGE SNAPSHOT) -->
+<section style="padding: 70px 20px; background: white;">
+  <div class="max" style="max-width: 1100px; margin: 0 auto;">
+    <div class="about-inner reveal" style="display:flex; gap: 50px; align-items: center; flex-wrap: wrap;">
+      <div class="about-img-wrap" style="flex: 1 1 320px; position: relative; min-width: 280px;">
+        <img src="media/image-18.jpg" alt="From Tradition to Innovation" style="width:100%; border-radius: 12px; display:block;">
+        <div class="about-badge-float">♛ From<br>Tradition<br>to<br>Innovation</div>
+      </div>
+      <div class="about-text" style="flex: 1 1 320px;">
+        <span class="sec-badge">🏺 Our Story</span>
+        <h2 class="sec-title">The <span class="red">Royal</span> Taste<br>of Tradition</h2>
+        <p>At <strong>IRÚOBÈ™</strong>, we are more than a seasoning brand — we are a story of heritage, health, and taste passed down through generations.</p>
+        <p>For centuries, locust beans (Irú) have been at the heart of West African kitchens — the secret behind the rich aroma of our mothers' pots and the soul of our traditional dishes.</p>
+        <blockquote style="border-left: 4px solid var(--red); padding-left: 16px; margin: 20px 0; font-style: italic; color: #555;">"IRÚOBÈ™ is tradition reimagined."</blockquote>
+        <p>Known by many names across West Africa — one beloved taste:</p>
+        <div class="heritage-names" style="display: flex; flex-wrap: wrap; gap: 8px; margin-top: 14px;">
+          <span class="hname hname-red">Irú (Yoruba)</span>
+          <span class="hname hname-grn">Ogiri (Igbo)</span>
+          <span class="hname hname-gld">Dawadawa (North)</span>
+          <span class="hname hname-brn">Soumbala (Ghana)</span>
+          <span class="hname hname-red">Nététou (Senegal)</span>
+          <span class="hname hname-grn">Okpehe (Benue)</span>
+        </div>
+        <a href="about.html" style="display:inline-block; margin-top: 28px; text-decoration: none; padding: 12px 24px; background: #2d2d2d; border-radius: 8px; color: white; font-weight: 600;">
+          Read Our Full Story →
+        </a>
+      </div>
     </div>
   </div>
 </section>
+
+<!-- SHOP -->
+<div id="products" class="products-section">
+  <div class="products-inner">
+    <span class="sec-badge">🛍️ Shop</span>
+    <h2 class="sec-title">Two Variants. <span class="red">Endless</span> Flavour.</h2>
+    <p class="sec-sub">Classic Iru (Red) and Sumabala Olive (Green) — each available in three convenient sizes. Every order goes directly through WhatsApp for fast, reliable delivery.</p>
+    <div class="variant-tabs">
+      <div class="vtab vtab-all active" onclick="filterProds('all',this)">All Products</div>
+      <div class="vtab vtab-red" onclick="filterProds('red',this)">🔴 Classic Iru</div>
+      <div class="vtab vtab-green" onclick="filterProds('green',this)">🟢 Sumabala Olive</div>
+    </div>
+    <div class="products-grid reveal">
+
+      <div class="prod-card" data-v="red">
+        <div class="prod-img-wrap">
+          <img src="media/image 22.png" alt="Classic Iru Obe — All Sizes">
+          <span class="prod-vdot vd-red">Classic Iru</span>
+          <span class="prod-new">BESTSELLER</span>
+        </div>
+        <div class="prod-body">
+          <div class="prod-name">Classic Iru Obe</div>
+          <div class="prod-desc">The original red Iru seasoning — bold, earthy, full of umami. Made from the finest Parkia biglobosa seeds. Perfect for all Nigerian soups.</div>
+          <div class="prod-sizes">
+            <span class="sz sz-r">10g Sachet</span>
+            <span class="sz sz-r">100g Pouch</span>
+            <span class="sz sz-r">1kg Bulk</span>
+          </div>
+          <div class="prod-footer">
+            <a href="https://wa.me/2347068861018?text=Hello%20IRÚOBÈ!%20I%20want%20to%20order%20Classic%20Iru%20Obe%20(Red).%20Please%20send%20me%20pricing%20and%20availability." class="btn-order" target="_blank">💬 Order Now</a>
+            <div class="prod-like" onclick="toggleLike(this)" title="Save">🤍</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="prod-card" data-v="red">
+        <div class="prod-img-wrap">
+          <img src="media/image-2.jpg" alt="Iru Obe 1kg">
+          <span class="prod-vdot vd-red">Classic Iru</span>
+          <span class="prod-new">TRADE SIZE</span>
+        </div>
+        <div class="prod-body">
+          <div class="prod-name">Iru Obe — 1kg Pouch</div>
+          <div class="prod-desc">Our largest size for families, caterers, and restaurants. Resealable zip-lock pouch. Long shelf life. Get the best value per gram.</div>
+          <div class="prod-sizes">
+            <span class="sz sz-r">1 kg</span>
+            <span class="sz sz-r">Resealable</span>
+            <span class="sz sz-r">Best Value</span>
+          </div>
+          <div class="prod-footer">
+            <a href="https://wa.me/2347068861018?text=Hello%20IRÚOBÈ!%20I%20want%20to%20order%20the%201kg%20Iru%20Obe%20pouch.%20Please%20send%20me%20pricing." class="btn-order" target="_blank">💬 Order Now</a>
+            <div class="prod-like" onclick="toggleLike(this)" title="Save">🤍</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="prod-card" data-v="red">
+        <div class="prod-img-wrap">
+          <img src="media/image-4.jpg" alt="Iru Obe — Premium Hero">
+          <span class="prod-vdot vd-red">Classic Iru</span>
+        </div>
+        <div class="prod-body">
+          <div class="prod-name">Iru Obe — Premium</div>
+          <div class="prod-desc">Hygienically processed and finely packaged. No odour, no mess — just pure, authentic Iru flavour sealed in for maximum freshness.</div>
+          <div class="prod-sizes">
+            <span class="sz sz-r">10g</span>
+            <span class="sz sz-r">100g</span>
+            <span class="sz sz-r">No MSG</span>
+          </div>
+          <div class="prod-footer">
+            <a href="https://wa.me/2347068861018?text=Hello%20IRÚOBÈ!%20I%20want%20to%20order%20Iru%20Obe%20seasoning.%20Please%20send%20me%20your%20full%20price%20list." class="btn-order" target="_blank">💬 Order Now</a>
+            <div class="prod-like" onclick="toggleLike(this)" title="Save">🤍</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="prod-card" data-v="green">
+        <div class="prod-img-wrap">
+          <img src="media/image-9.jpg" alt="Sumabala Olive — 3 sizes">
+          <span class="prod-vdot vd-green">Sumabala Olive</span>
+          <span class="prod-new">NEW</span>
+        </div>
+        <div class="prod-body">
+          <div class="prod-name">Sumabala Olive</div>
+          <div class="prod-desc">The premium olive-green variant. Milder, subtler, and equally authentic — perfect for lighter soups and those new to Iru seasoning.</div>
+          <div class="prod-sizes">
+            <span class="sz sz-g">10g Sachet</span>
+            <span class="sz sz-g">100g Pouch</span>
+            <span class="sz sz-g">Mild Variant</span>
+          </div>
+          <div class="prod-footer">
+            <a href="https://wa.me/2347068861018?text=Hello%20IRÚOBÈ!%20I%20want%20to%20order%20Sumabala%20Olive%20(Green).%20Please%20send%20me%20pricing." class="btn-order grn" target="_blank">💬 Order Now</a>
+            <div class="prod-like" onclick="toggleLike(this)" title="Save">🤍</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="prod-card" data-v="green">
+        <div class="prod-img-wrap">
+          <img src="media/image-7.jpg" alt="Sumabala Olive Single">
+          <span class="prod-vdot vd-green">Sumabala Olive</span>
+        </div>
+        <div class="prod-body">
+          <div class="prod-name">Sumabala — 100g</div>
+          <div class="prod-desc">Your everyday kitchen companion. Clean, rich, natural Sumabala flavour in a convenient resealable pouch — ready for your next pot.</div>
+          <div class="prod-sizes">
+            <span class="sz sz-g">100g</span>
+            <span class="sz sz-g">Resealable</span>
+          </div>
+          <div class="prod-footer">
+            <a href="https://wa.me/2347068861018?text=Hello%20IRÚOBÈ!%20I%20want%20to%20order%20the%20100g%20Sumabala%20Olive.%20Please%20send%20me%20pricing." class="btn-order grn" target="_blank">💬 Order Now</a>
+            <div class="prod-like" onclick="toggleLike(this)" title="Save">🤍</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="prod-card" data-v="green">
+        <div class="prod-img-wrap">
+          <img src="media/image-16.jpg" alt="Sumabala Bulk">
+          <span class="prod-vdot vd-green">Sumabala Olive</span>
+          <span class="prod-new">WHOLESALE</span>
+        </div>
+        <div class="prod-body">
+          <div class="prod-name">Sumabala — Bulk Pack</div>
+          <div class="prod-desc">Wholesale and retail sachets for distributors, market sellers, and food businesses. Contact us for bulk pricing and minimum order quantities.</div>
+          <div class="prod-sizes">
+            <span class="sz sz-g">Bulk Sachets</span>
+            <span class="sz sz-g">Wholesale</span>
+          </div>
+          <div class="prod-footer">
+            <a href="https://wa.me/2347068861018?text=Hello%20IRÚOBÈ!%20I%20am%20interested%20in%20wholesale%2Fbulk%20Sumabala%20Olive%20sachets.%20Please%20send%20me%20bulk%20pricing." class="btn-order grn" target="_blank">💬 Enquire Now</a>
+            <div class="prod-like" onclick="toggleLike(this)" title="Save">🤍</div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
 
 <!-- WHY CHOOSE US (Brief) -->
 <section style="padding: 60px 20px; background: white;">
@@ -184,6 +337,21 @@
 // ── MOBILE MENU ──
 function toggleMenu(){
   document.getElementById('mobileMenu').classList.toggle('open');
+}
+
+// ── PRODUCT FILTER ──
+function filterProds(v, btn){
+  document.querySelectorAll('.vtab').forEach(t=>t.classList.remove('active'));
+  btn.classList.add('active');
+  document.querySelectorAll('.prod-card').forEach(c=>{
+    c.style.display = (v==='all'||c.dataset.v===v) ? '' : 'none';
+  });
+}
+
+// ── WISHLIST ──
+function toggleLike(el){
+  el.classList.toggle('liked');
+  el.textContent = el.classList.contains('liked') ? '❤️' : '🤍';
 }
 
 // ── GALLERY LIGHTBOX ──
